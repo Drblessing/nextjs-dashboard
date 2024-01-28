@@ -48,9 +48,9 @@ const customers = [
   },
   {
     id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
-    name: 'Evil Rabbit',
-    email: 'evil@rabbit.com',
-    image_url: '/customers/evil-rabbit.png',
+    name: 'Virtuous Angel',
+    email: 'virtuous@angel.com',
+    image_url: '/customers/holy-angel.png',
   },
   {
     id: '126eed9c-c90c-4ef6-a4a8-fcf7408d3c66',
@@ -111,8 +111,8 @@ const invoices = [
   },
   {
     customer_id: customers[6].id,
-    amount: 666,
-    status: 'pending',
+    amount: 777,
+    status: 'paid',
     date: '2023-06-27',
   },
   {
